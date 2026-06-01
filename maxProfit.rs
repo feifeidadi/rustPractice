@@ -22,8 +22,8 @@ fn max_profit(prices : &[i32]) -> i32
 
 fn main()
 {
-  println!("{}", max_profit(&vec![]));
-  println!("{}", max_profit(&vec![1, 2, 3, 4, 5]));
-  println!("{}", max_profit(&vec![3, 10, 900, 1, 1000, 10]));
-  println!("{}", max_profit(&vec![100, 100, 100, 100, 100]));
+  println!("{}", max_profit(&[]));
+  println!("{}", max_profit(&[1, 2, 3, 4, 5]));
+  println!("{}", max_profit(&[3, 10, 900, 1, 1000, 10]));
+  println!("{}", max_profit(&[100, 100, 100, 100, 100]));
 }
